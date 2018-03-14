@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'njnaruto';
+    src:
+    url('font/njnaruto/njnaruto-webfont.tff') format('truetype'),
+    url('font/njnaruto/njnaruto-webfont.woff2') format('woff2'),
+    url('font/njnaruto/njnaruto-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'redlotus';
+    src:
+    url('font/red-lotus/ragingredlotusbb-webfont.ttf') format('truetype'),
+    url('font/red-lotus/ragingredlotusbb-webfont.woff2') format('woff2'),
+    url('font/red-lotus/ragingredlotusbb-webfont.woff') format('woff');
+}
+
+p {
+    font-family: 'Mina', sans-serif;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+}
+
+header h4 {
+    margin: 40px 0 0 50px;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: yellow;
+}
+
+header h4 span {
+    margin-left: -50px;
+    font-size: 1.2em;
+    font-family: 'njnaruto';
+    line-height: 100px;
+}
+
+h4:hover {
+    opacity: 0.7;
+}
+
+body {
+    margin: 0 80px;
+    padding: 0;
+    background-image: url(img/bg.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.diamond {
+    margin: 0;
+    padding: 0;
+    height: 260px;
+}
+
+ul.block {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 600px;
+    height: 150px;
+    display: block;
+}
+
+ul.block li {
+    list-style: none;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    transform: rotate(45deg);
+    opacity: 0.6;
+    overflow: hidden;
+    background: grey;
+}
+
+ul.block li:hover {
+    opacity: 1;
+}
+
+ul li.item1 {
+    top: 0;
+    left: 0;
+}
+
+ul li.item2 {
+    top: 124%;
+    left: 31%;
+}
+
+ul li.item3 {
+    top: 0;
+    left: 62%;
+}
+
+ul li.item4 {
+    top: 124%;
+    left: 93%;
+}
+
+ul li.item5 {
+    top: 0;
+    left: 124%;
+}
+
+ul li .pic {
+    transform: rotate(-45deg) scale(1.4);
+    width: 100%;
+    height:100%;
+}
+
+ul li.item1 .pic {
+    background: url(img/samurai4-4.jpg);
+    background-size: cover;
+}
+
+ul li.item2 .pic {
+    background: url(img/samurai1-1.jpg);
+    background-size: cover;
+}
+
+ul li.item3 .pic {
+    background: url(img/samurai6-6.jpg);
+    background-size: cover;
+}
+
+ul li.item4 .pic {
+    background: url(img/samurai2-2.jpg);
+    background-size: cover;
+}
+
+ul li.item5 .pic {
+    background: url(img/samurai5-5.jpg);
+    background-size: cover;
+}
+
+ul.name {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 600px;
+    height: 150px;
+}
+
+ul.name li {
+    width: 100%;
+    font-family: 'redlotus', 'Mina', sans-serif;
+    font-size: 2em;
+}
+
+ul.name li.name1 {
+    position: absolute;
+    top: -25%;
+    left: 40%;
+}
+
+ul.name li.name2 {
+    position: absolute;
+    top: 350%;
+    left: 40%;
+}
+
+ul.name li.name3 {
+    position: absolute;
+    top: 150%;
+    left: 85%;
+}
+
+ul.name li.name4 {
+    position: absolute;
+    top: 525%;
+    left: 85%;
+}
+
+ul.name li.name5 {
+    position: absolute;
+    top: 325%;
+    left: 127.5%;
+}
+
+section h3 {
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-family: 'redlotus', 'Mina', sans-serif;
+    font-size: 3em;
+}
